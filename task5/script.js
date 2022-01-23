@@ -7,12 +7,12 @@ if (event.key == 'Enter') {
 }
 
 
-document.querySelector('button').onclick = resetBtn
-
-function resetBtn () {
+document.querySelector('button').addEventListener('click' , event => {
 
     let x = document.querySelector('#text-add').value;
     console.log(textContent = x);
+
+})
     
-}
+
 
